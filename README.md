@@ -1,10 +1,12 @@
 # Equivariance by Contrast: Identifiable Equivariant Embeddings from Unlabeled Finite Group Actions
 
-Tobias Schmidt, Steffen Schneider, Matthias Bethge
+[Tobias Schmidt](https://dynamical-inference.ai/authors/tobias-schmidt/), [Steffen Schneider](https://dynamical-inference.ai/) and [Matthias Bethge](https://bethgelab.org/)
 
 *Accepted at NeurIPS 2025.*
 
-*This repository is currently under construction. You can follow issue #1 if you'd like to be notified about the first code release.*
+🔗 https://arxiv.org/abs/2510.21706
+
+🚧 *This repository is currently under construction. You can follow [issue #1](https://github.com/dynamical-inference/ebc/issues/1) if you'd like to be notified about the first code release.*
 
 ## Abstract
 
@@ -30,5 +32,6 @@ We propose Equivariance by Contrast (EbC) to learn equivariant embeddings from o
   author={Anonymous},
   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
   year={2025},
+  url={https://doi.org/10.48550/arXiv.2510.21706}
 }
 ```
