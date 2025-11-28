@@ -4,7 +4,7 @@
 
 *Accepted at NeurIPS 2025.*
 
-🔗 https://arxiv.org/abs/2510.21706
+[`[Paper]`](https://openreview.net/forum?id=kvI0QTVRQD) [`[Preprint]`](https://arxiv.org/abs/2510.21706) [`[Poster]`](https://neurips.cc/virtual/2025/loc/san-diego/poster/116330)
 
 🚧 *This repository is currently under construction. You can follow [issue #1](https://github.com/dynamical-inference/ebc/issues/1) if you'd like to be notified about the first code release.*
 
@@ -29,9 +29,9 @@ We propose Equivariance by Contrast (EbC) to learn equivariant embeddings from o
 @inproceedings{
   schmidt2025ebc,
   title={Equivariance by Contrast: Identifiable Equivariant Embeddings from Unlabeled Finite Group Actions},
-  author={Anonymous},
+  author={Tobias Schmidt and Steffen Schneider and Matthias Bethge},
   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
   year={2025},
-  url={https://doi.org/10.48550/arXiv.2510.21706}
+  url={https://openreview.net/forum?id=kvI0QTVRQD}
 }
 ```
