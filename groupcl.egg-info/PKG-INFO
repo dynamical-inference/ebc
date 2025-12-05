@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: groupcl
+Version: 0.1.0
+Requires-Python: >=3.10.0
+Requires-Dist: ipykernel
+Requires-Dist: typeguard==2.13.3
+Requires-Dist: jaxtyping>=0.2.38
+Requires-Dist: python-dotenv
+Requires-Dist: numpy<2.0.0
+Requires-Dist: scikit-learn>=1.4.0
+Requires-Dist: scikit-learn-extra>=0.3.0
+Requires-Dist: git-python
+Requires-Dist: diskcache
+Requires-Dist: cython
+Requires-Dist: cloudpickle
+Requires-Dist: plotly
+Requires-Dist: datajoint==0.14.3

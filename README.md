@@ -6,7 +6,7 @@
 
 [`[Paper]`](https://openreview.net/forum?id=kvI0QTVRQD) [`[Preprint]`](https://arxiv.org/abs/2510.21706) [`[Poster]`](https://neurips.cc/virtual/2025/loc/san-diego/poster/116330)
 
-🚧 *This repository is currently under construction. You can follow [issue #1](https://github.com/dynamical-inference/ebc/issues/1) if you'd like to be notified about the first code release.*
+This repository contains the code that was used to produce the results in the paper. 
 
 ## Abstract
 
@@ -23,6 +23,33 @@ We propose Equivariance by Contrast (EbC) to learn equivariant embeddings from o
 
 <img width="1517" height="572" alt="image" src="https://github.com/user-attachments/assets/9ff414b7-42d5-4e38-83f5-1954b3a93c00" />
 
+
+
+## Setup
+
+To set up the environment and install all dependencies, run the following commands in your terminal:
+
+```bash
+# Create and activate conda environment
+conda create -n ebc python=3.10 --no-default-packages --channel conda-forge --override-channels -y
+conda activate ebc
+
+# Install PyTorch (choose appropriate command for your system if needed)
+pip install torch torchvision
+
+# Install remaining dependencies and the EbC package
+pip install -r requirements.txt
+pip install -e .
+```
+
+## Example Usage
+
+We provide example notebooks for reproducing results from the paper in the `examples` folder:
+- [Synthethic data](examples/01%20Torch%20API%20-%20Synthethic%20Group%20Data.ipynb)
+- [Infinite DSprites](examples/02%20Torch%20AP%20-%20iDsprites.ipynb)
+- [Rat Hippocampus](examples/03%20Torch%20AP%20-%20Rat%20Hippocampus.ipynb)
+
+
 ## Citation
 
 ```
@@ -35,3 +62,5 @@ We propose Equivariance by Contrast (EbC) to learn equivariant embeddings from o
   url={https://openreview.net/forum?id=kvI0QTVRQD}
 }
 ```
+
+
